@@ -1,0 +1,188 @@
+if (file_exists("C:\\carbook\\repuve\\RECIBIDO.TXT")){ 
+   carga_repuve();
+}
+else
+{ 
+   echo "El fichero no existe"; 
+} 
+
+--------------- carga_repuve();
+$archivo_01 = 'C:\\\carbook\\\repuve\\\RECIBIDO.TXT';
+$archivo = fopen ($archivo_01, "r");//abres el archivo para lectura 
+$contenido = fread ($archivo, filesize ($archivo_01));//Lees el contenido del archivo
+fclose($archivo);
+$fecha = date("d-m-Y_H-i-s");
+
+If (file($archivo_01)) 
+       {
+        Print ("El fichero se ha abierto con exito.");
+        sc_exec_sql("
+    		LOAD DATA LOCAL INFILE '$archivo_01' INTO TABLE TMP_TR_CARGA_REPUVE
+    	 ");
+    	 
+ 	 echo "$archivo_01";
+         echo "$archivo";
+         
+         normalizacion();
+         copy($archivo_01,'C:\\\carbook\\\repuve\\\respaldo_repuve\\\RECIBIDO_'.$fecha.'.txt');
+         unlink($archivo_01);
+         
+        }
+else
+      {
+      
+      echo"No se pudo abrir el archivo";
+      }
+
+------------ carga_tr_repuve
+// Normalizacion de los datos de la carga 660 en la tabla TMP_TR_660
+
+sc_select(consulta_01, "
+	                SELECT  FOLIO
+	                FROM TMP_TR_REPUVE ");
+
+/* Macro sc_lookup */
+IF (FALSE === {consulta_01}) 
+        {
+         sc_alert('Error while accessing database.');
+	}
+ELSE {
+	WHILE (!$consulta_01->EOF) 
+	{
+	  [folio] = $consulta_01->fields[0];     	
+	  
+	  
+	  sc_select(consulta_02,"
+                                 SELECT FOLIO
+                                 FROM TR_REPUVE
+                                 WHERE FOLIO = [folio]");
+          
+		          /* Macro sc_lookup */
+	  IF (FALSE === {consulta_02}) 
+	  {
+	         sc_alert('Error while accessing database.');
+	  }
+
+	  ELSE 
+	  {
+  
+	    [repetido] = $consulta_02->fields[0];
+	   	    
+	    echo"Pacharro:[repetido]..";
+	    
+	    IF([repetido] == '')
+	    {
+             echo "Folio Repuve [folio], no existente";
+	    // sc_exec_sql("
+	    //          INSERT INTO TR_REPUVE (id_marca, id_centro_distribucion, vin, avanzada, folio, tid, fecha_evento, estatus, error)
+	    //	      SELECT '5','0',vin,substr(vin,10,8)as avanzada,folio,tag_id,CONCAT(anio, mes, dia, hora,minuto, segundo) as FECHA_EVENTO, status, 	  descripcion
+            //          FROM TMP_TR_REPUVE");
+         
+	    }
+            ELSE	  
+            {
+	     echo "Folio Repuve [folio], repetido";             
+            }
+          }
+            
+            $consulta_01->MoveNext();
+        }
+		  
+     }                         
+	  
+         $consulta_01->Close();
+
+--------------------------normalizacion();               
+
+
+// Normalizacion de los datos de la carga 660 en la tabla TMP_TR_660
+
+sc_select(consulta_01, "
+	                SELECT  CARGA_UNITARIA
+	                FROM TMP_TR_CARGA_REPUVE ");
+
+/* Macro sc_lookup */
+IF (FALSE === {consulta_01}) 
+        {
+         sc_alert('Error while accessing database.');
+	}
+ELSE {
+	WHILE (!$consulta_01->EOF) 
+	{
+	  [repuve] = $consulta_01->fields[0];     	
+	  
+	  [folio] = substr("[repuve]",17,8);
+	  
+	  sc_select(consulta_02,"
+                                 SELECT FOLIO
+                                 FROM TMP_TR_REPUVE
+                                 WHERE FOLIO = [folio]");
+          
+		          /* Macro sc_lookup */
+	  IF (FALSE === {consulta_02}) 
+	  {
+	         sc_alert('Error while accessing database.');
+	  }
+
+	  ELSE 
+	  {
+  
+	    [repetido] = $consulta_02->fields[0];
+	    
+	    echo"Pacharro:[repetido]..";
+	    
+	    IF([repetido] == '')
+	    {
+             echo "Folio [folio], no existente";
+             
+             [vin] = substr("[repuve]",0,17);
+ 	     [folio] = substr("[repuve]",17,8);
+	     [tag_id] = substr("[repuve]",25,28);
+	     [anio] = substr("[repuve]",53,4);
+	     [mes] = substr("[repuve]",57,2);
+	     [dia] = substr("[repuve]",59,2);
+	     [hora] = substr("[repuve]",61,2);
+	     [mins] = substr("[repuve]",63,2);
+	     [seg] = substr("[repuve]",65,2);
+	     [status] = substr("[repuve]",67,2);
+	     [error] = substr("[repuve]",69,80);
+	          
+	     echo("$avanzada\n");
+	  
+	     sc_exec_sql(" 
+	                  INSERT INTO TMP_TR_REPUVE (vin, folio, tag_id, anio, mes, dia, hora, minuto, segundo, status, descripcion)
+	                  VALUES ('[vin]','[folio]','[tag_id]','[anio]','[mes]','[dia]','[hora]','[mins]','[seg]','[status]','[error]')");
+		             
+		//  $consulta_01->MoveNext();
+	  
+	          [vin] = '';
+	          [folio] = '';
+	          [tag_id] = '';
+	          [anio] = '';
+	          [mes] = '';
+	          [dia] = '';
+	          [hora] = '';
+	          [mins] = '';
+	          [seg] = '';
+	          [status] = '';
+	          [error] = '';
+	    }
+            ELSE	  
+            {
+	     echo "Folio [folio], repetido";             
+            }
+          }
+            
+            $consulta_01->MoveNext();
+        }
+		  
+     }                         
+	  
+         $consulta_01->Close();
+         
+         carga_tr_repuve();
+         
+         
+         sc_exec_sql("
+                      TRUNCATE TABLE TMP_TR_CARGA_REPUVE");
+        

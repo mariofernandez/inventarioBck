@@ -1,0 +1,146 @@
+HD XTRAKZ922786700         SH                
+DT11C4RDHDG6DC700398C            M2           29312466                              13081911320483130819     WDDH75TIJUANA BC         BNPAU                                                     04765                                           
+DT12C3CDYAG6EH123515H            M2           29281603                              13081911465566130819     LCDH22CHIHUAHUA CHIH     CHPX8                                                     03806                                           
+HD XTRAKZ922786703         HC                
+DT11C4RDHDG6DC700398C            M2           29312466        M0090                 13081911320484130819     WDDH75TIJUANA BC         BNPAU                                                     04765                                           
+DT12C3CDYAG6EH123515H            M2           29281603        M2710                 13081911465567130819     LCDH22CHIHUAHUA CHIH     CHPX8                                                     03806                                           
+HD XTRAKZ922786703923888000                  
+DT12C3CDYAG6EH123515H            M2           29281603        M2710                 13081911465568130819     LCDH22CHIHUAHUA CHIH     CHPX8                                                     03806                                           
+HD XTRAKZ922786703933910000                  
+DT11C4RDHDG6DC700398C            M2           29312466        M0090                 13081911320485130819     WDDH75TIJUANA BC         BNPAU                                                     04765                                           
+HD XTRAI 940600000         HC                
+DT11C4RJEBG0EC260724C            M3           29281364        M4150                 13081912221508130817     WKTP74URUAPAN            MCPSC                                                     04553                                           
+HD XTRAKZ940600000         HC                
+DT11C4RJEBG3EC273077C            M3           29492806        M4130                 13081911324430130819     WKTP74QUERETARO QRO      QOPSC                                                     04553                                           
+DT11C4RJEBG5EC274621C            M3           29483845        M3980                 13081911324468130819     WKTP74SAN LUIS POTOSI    SLPAU                                                     04553                                           
+DT11C4RJEBG9EC274623C            M3           29485163        M0130                 13081911324474130819     WKTP74ZAMORA MICH        MCPRP                                                     04553                                           
+DT11C4RJEBG8EC274628C            M3           29488995        M4260                 13081911324482130819     WKTP74LEON GTO           GTPAU                                                     04553                                           
+HD XTRAKZ940600000918530000                  
+DT11C4RJEBG5EC274621C            M3           29483845        M3980                 13081911324469130819     WKTP74SAN LUIS POTOSI    SLPAU                                                     04553                                           
+HD XTRAKZ940600000947480000                  
+DT11C4RJEBG9EC274623C            M3           29485163        M0130                 13081911324475130819     WKTP74ZAMORA MICH        MCPRP                                                     04553                                           
+HD XTRAI 940600000948738000                  
+DT11C4RJEBG0EC260724C            M3           29281364        M4150                 13081912221509130817     WKTP74URUAPAN            MCPSC                                                     04553                                           
+HD XTRAKZ940600000953490000                  
+DT11C4RJEBG3EC273077C            M3           29492806        M4130                 13081911324431130819     WKTP74QUERETARO QRO      QOPSC                                                     04553                                           
+HD XTRAKZ940600000954675000                  
+DT11C4RJEBG8EC274628C            M3           29488995        M4260                 13081911324483130819     WKTP74LEON GTO           GTPAU                                                     04553                                           
+HD XTRAI 940605000         SH                
+DT11C4RJEBG0EC260724C            M3           29281364                              13081912221507130817     WKTP74URUAPAN            MCPSC                                                     04553                                           
+HD XTRAKZ940605000         SH                
+DT11C4RJEBG3EC273077C            M3           29492806                              13081911324429130819     WKTP74QUERETARO QRO      QOPSC                                                     04553                                           
+DT11C4RJEBG5EC274621C            M3           29483845                              13081911324467130819     WKTP74SAN LUIS POTOSI    SLPAU                                                     04553                                           
+DT11C4RJEBG9EC274623C            M3           29485163                              13081911324473130819     WKTP74ZAMORA MICH        MCPRP                                                     04553                                           
+DT11C4RJEBG8EC274628C            M3           29488995                              13081911324481130819     WKTP74LEON GTO           GTPAU                                                     04553                                           
+HD XTRAI 958770703         HC                
+DT11C4AJPAB3ED629469D            M1           29472762        M8190                 13081912004742130818@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAI 958770703         HC                
+DT12C3CDYAG4EH123514H            M1           29277432        M0230                 13081911504787130819     LCDH22MERIDA YUC         YUPX8                                                     03806                                           
+DT12C3CDXAG0EH121060H            M1           F8441805        M8190                 13081912054789130819 FM  LDDE48MEXICO             DFPW7                                                     03931                                           
+HD XTRAJS958770703         HC                
+DT11C4AJPAB1ED629454D            M1           29472747        M8190                 13081912183418130817@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAJS958770703         HC                
+DT11C4AJPAB8ED629466D            M1           29472759        M8190                 13081912193550130819@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAKZ958770703         HC                
+DT11C4RJFDJ8EC272358C            M1           F2173400        M4360                 13081911324392130819     WKJX74TLALNEPANTLA EDO   MXPRM                                                     05103                                           
+DT11C4RJFDJXEC272359C            M1           F2173401        M4540                 13081911324402130819     WKJX74NAUCALPAN EDO DE   MXPRM                                                     05103                                           
+DT11C4RJEBG5EC273081C            M1           29493104        M4270                 13081911324436130819     WKTP74CUERNAVACA MOR     MRPXR                                                     04553                                           
+DT11C4RJEBG2EC274575C            M1           29474262        M0270                 13081911324456130819     WKTP74HUIXQUILUCAN       MXPAU                                                     04553                                           
+DT11C4RJEBG0EC274591C            M1           29476225        M0270                 13081911324462130819     WKTP74HUIXQUILUCAN       MXPSC                                                     04553                                           
+DT11C4BJWEG5EL124379L            M1           29288821        M2460                 13081911553670130819     JKJP74PUEBLA PUE         PUPSC                                                     04266                                           
+HD XTRAKZ958770703958186000                  
+DT11C4RJFDJ8EC272358C            M1           F2173400        M4360                 13081911324393130819     WKJX74TLALNEPANTLA EDO   MXPRM                                                     05103                                           
+HD XTRAKZ958770703958216000                  
+DT11C4RJFDJXEC272359C            M1           F2173401        M4540                 13081911324403130819     WKJX74NAUCALPAN EDO DE   MXPRM                                                     05103                                           
+HD XTRAKZ958770703958570000                  
+DT11C4RJEBG2EC274575C            M1           29474262        M0270                 13081911324457130819     WKTP74HUIXQUILUCAN       MXPAU                                                     04553                                           
+DT11C4RJEBG0EC274591C            M1           29476225        M0270                 13081911324463130819     WKTP74HUIXQUILUCAN       MXPSC                                                     04553                                           
+HD XTRAI 958770703960000000                  
+DT11C4AJPAB3ED629469D            M1           29472762        M8190                 13081912004743130818@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAI 958770703960000000                  
+DT12C3CDXAG0EH121060H            M1           F8441805        M8190                 13081912054790130819 FM  LDDE48MEXICO             DFPW7                                                     03931                                           
+HD XTRAJS958770703960000000                  
+DT11C4AJPAB1ED629454D            M1           29472747        M8190                 13081912183419130817@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAJS958770703960000000                  
+DT11C4AJPAB8ED629466D            M1           29472759        M8190                 13081912193551130819@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAKZ958770703961363000                  
+DT11C4RJEBG5EC273081C            M1           29493104        M4270                 13081911324437130819     WKTP74CUERNAVACA MOR     MRPXR                                                     04553                                           
+HD XTRAKZ958770703967512000                  
+DT11C4BJWEG5EL124379L            M1           29288821        M2460                 13081911553671130819     JKJP74PUEBLA PUE         PUPSC                                                     04266                                           
+HD XTRAI 958770703973156000                  
+DT12C3CDYAG4EH123514H            M1           29277432        M0230                 13081911504788130819     LCDH22MERIDA YUC         YUPX8                                                     03806                                           
+HD XTRAI 958770703979792000                  
+DT13C4PDCAB3ET121166T            CO           29435419                              13081911413432130817     JCDH49BOGOTA             EXPPS                                                     03740                                           
+DT13C4PDCFG3ET116151T            BR           29356724                              13081912210300130817     JCDS49MINAS GERAIS       EXPX8                                                     04232                                           
+HD XTRAI 958770703979792000                  
+DT13C4PDCAB2ET121160T            CO           29435413                              13081911335774130819     JCDH49BOGOTA             EXPPS                                                     03740                                           
+DT13C4PDCFG9ET116140T            BR           29356713                              13081911562474130819     JCDS49MINAS GERAIS       EXPX8                                                     04232                                           
+DT13C4PDCCG8ET116215T            BR           29357562                              13081912093527130819     JCDP49MINAS GERAIS       EXPX8                                                     04185                                           
+DT13C4PDCCG0ET116225T            BR           29357572                              13081912141490130819     JCDP49MINAS GERAIS       EXPX8                                                     04185                                           
+HD XTRAJS958770703979792000                  
+DT13C3CFFGE6DT741072T            BRZF         R0036185                              13081911334306130802     FFEP24PAULO CAMILO PEN   EXPF3                                                     02973                                           
+HD XTRAKZ958770703979792000                  
+DT13C4PDCAB6ET121176T            CO           29435429                              13081911381820130819     JCDH49BOGOTA             EXPS2                                                     03740                                           
+DT13C4PFAEY1ET110115T            AB           E5744421                              13081911413216130819     JFBP49BRISBANE           EXPXR                                                     04170                                           
+DT13C4PDDFG7ET119673T            AR           29420340                              13081911421040130819     JCES49PUERTO MADERO -    EXPWH                                                     04419                                           
+DT13C4PDDFG5ET119672T            AR           29420339                              13081911513718130819     JCES49PUERTO MADERO -    EXPWH                                                     04419                                           
+DT13C4PFAAB3ET104172T            RU           P0245303                              13081911595217130819     JFDH49MOSCOW             EXPWH                                                     03917                                           
+DT13C4PFAEY2ET110124T            AJ           E5744430                              13081912054872130819     JFBP49MELBOURNE          EXPW3                                                     04170                                           
+DT13C3AFFAR2ET744880T            BRZF         P0250483                              13081912112780130819     FFFL24PAULO CAMILO PEN   EXPW3                                                     02371                                           
+DT13C4PDCAB7ET121137T            CO           29435390                              13081912120721130819     JCDH49BOGOTA             EXPX8                                                     03740                                           
+DT13C4PDCFG7ET116136T            BR           29356709                              13081912165506130819     JCDS49MINAS GERAIS       EXPX8                                                     04232                                           
+HD XTRAI 960000000         SH                
+DT11C4AJPAB3ED629469D            M1           29472762                              13081912004741130818@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAI 960000000         SH                
+DT12C3CDYAG4EH123514H            M1           29277432                              13081911504786130819     LCDH22MERIDA YUC         YUPX8                                                     03806                                           
+DT12C3CDXAG0EH121060H            M1           F8441805                              13081912054788130819 FM  LDDE48MEXICO             DFPW7                                                     03931                                           
+HD XTRAJS960000000         SH                
+DT11C4AJPAB1ED629454D            M1           29472747                              13081912183417130817@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAJS960000000         SH                
+DT11C4AJPAB8ED629466D            M1           29472759                              13081912193549130819@FM  MKTL74MEXICO             DFPS2                                                     03201                                           
+HD XTRAKZ960000000         SH                
+DT11C4RJFDJ8EC272358C            M1           F2173400                              13081911324391130819     WKJX74TLALNEPANTLA EDO   MXPRM                                                     05103                                           
+DT11C4RJFDJXEC272359C            M1           F2173401                              13081911324401130819     WKJX74NAUCALPAN EDO DE   MXPRM                                                     05103                                           
+DT11C4RJEBG5EC273081C            M1           29493104                              13081911324435130819     WKTP74CUERNAVACA MOR     MRPXR                                                     04553                                           
+DT11C4RJEBG2EC274575C            M1           29474262                              13081911324455130819     WKTP74HUIXQUILUCAN       MXPAU                                                     04553                                           
+DT11C4RJEBG0EC274591C            M1           29476225                              13081911324461130819     WKTP74HUIXQUILUCAN       MXPSC                                                     04553                                           
+DT11C4BJWEG5EL124379L            M1           29288821                              13081911553669130819     JKJP74PUEBLA PUE         PUPSC                                                     04266                                           
+HD XTRAI 960000305         HC                
+DT13C4BDCAB0ET123032T            1X           29357918        M4120                 13081912165601130816     JCDH49GARZA GARCIA NUE   NLPS2                                                     03856                                           
+HD XTRAI 960000305         HC                
+DT13C4PDCFG1ET112065T            1X           29281504        M2690                 13081912093833130817     JCDS49CHIHUAHUA CHIH     CHPS2                                                     04287                                           
+DT13C4BDCAB4ET122725T            1X           29277566        M4540                 13081912143695130817     JCDH49NAUCALPAN EDO DE   MXPWH                                                     03740                                           
+HD XTRAI 960000305         HC                
+DT13C4PDCCB7ET120812T            1X           29471899        M3820                 13081912141860130819     JCDP49HERMOSILLO SON     SOPWH                                                     04061                                           
+HD XTRAKZ960000305         HC                
+DT13C4BDCAB9ET123367T            1X           29478655        M3980                 13081911402910130819     JCDH49SAN LUIS POTOSI    SLPW3                                                     03740                                           
+DT13C4PDCCB3ET120631T            1X           29460796        M0020                 13081911403415130819     JCDP49MEXICO D F         DFPPS                                                     03961                                           
+DT13C4BDCAB5ET122040T            1X           29492474        M4130                 13081911445574130819     JCDH49QUERETARO QRO      QOPS2                                                     03740                                           
+DT13C4BDCAB3ET122778T            1X           29282923        M1960                 13081911453766130819     JCDH49PUEBLA PUE         PUPWH                                                     03740                                           
+DT13C4BDCAB8ET123392T            1X           29483742        M2670                 13081911514387130819     JCDH49AGUASCALIENTES A   AGPWH                                                     03856                                           
+DT13C3AFFAR0DT745718T            1X           29498683        Q0000                 13081911580152130819     FFFL24MEXICO, D.F.       DFPRA                                                     02312                                           
+DT13C4BDCAB6ET122712T            1X           29262724        M4430                 13081912053841130819     JCDH49MPIO BENITO JUAR   QRPPS                                                     03740                                           
+DT13C3AFFAR9DT745720T            1X           29498705        Q0000                 13081912264344130819     FFFL24MEXICO, D.F.       DFPTM                                                     02312                                           
+HD XTRAI 960000305915015000                  
+DT13C4BDCAB0ET123032T            1X           29357918        M4120                 13081912165602130816     JCDH49GARZA GARCIA NUE   NLPS2                                                     03856                                           
+HD XTRAKZ960000305918530000                  
+DT13C4BDCAB9ET123367T            1X           29478655        M3980                 13081911402911130819     JCDH49SAN LUIS POTOSI    SLPW3                                                     03740                                           
+HD XTRAI 960000305923888000                  
+DT13C4PDCFG1ET112065T            1X           29281504        M2690                 13081912093834130817     JCDS49CHIHUAHUA CHIH     CHPS2                                                     04287                                           
+HD XTRAI 960000305932154000                  
+DT13C4PDCCB7ET120812T            1X           29471899        M3820                 13081912141861130819     JCDP49HERMOSILLO SON     SOPWH                                                     04061                                           
+HD XTRAKZ960000305940720000                  
+DT13C4BDCAB8ET123392T            1X           29483742        M2670                 13081911514388130819     JCDH49AGUASCALIENTES A   AGPWH                                                     03856                                           
+HD XTRAKZ960000305953490000                  
+DT13C4BDCAB5ET122040T            1X           29492474        M4130                 13081911445575130819     JCDH49QUERETARO QRO      QOPS2                                                     03740                                           
+HD XTRAI 960000305958216000                  
+DT13C4BDCAB4ET122725T            1X           29277566        M4540                 13081912143696130817     JCDH49NAUCALPAN EDO DE   MXPWH                                                     03740                                           
+HD XTRAKZ960000305960000000                  
+DT13C3AFFAR0DT745718T            1X           29498683        Q0000                 13081911580153130819     FFFL24MEXICO, D.F.       DFPRA                                                     02312                                           
+DT13C3AFFAR9DT745720T            1X           29498705        Q0000                 13081912264345130819     FFFL24MEXICO, D.F.       DFPTM                                                     02312                                           
+HD XTRAKZ960000305960601000                  
+DT13C4PDCCB3ET120631T            1X           29460796        M0020                 13081911403416130819     JCDP49MEXICO D F         DFPPS                                                     03961                                           
+HD XTRAKZ960000305967512000                  
+DT13C4BDCAB3ET122778T            1X           29282923        M1960                 13081911453767130819     JCDH49PUEBLA PUE         PUPWH                                                     03740                                           
+HD XTRAKZ960000305971030000                  
+DT13C4BDCAB6ET122712T            1X           29262724        M4430                 13081912053842130819     JCDH49MPIO BENITO JUAR   QRPPS                                                     03740                                           

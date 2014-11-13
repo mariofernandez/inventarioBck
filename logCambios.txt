@@ -1,0 +1,126 @@
+27-11-2013
+==========
+
+- Correción catDirecciones por error en variable
+- addUnidad - alUnidades parametrizada
+- Filtro por distribuidor agregado para getUnidades
+- Función getNoDetenidas - alUnidades
+- Función getDetenidas - 
+
+02-12-2013
+==========
+
+- Filtro por clasificación y correción de filtros caSimbolosUnidades.php
+- Correccion a return $a para addUnidad
+- Funcion addDestinoEspecial completada - alDestinosEspeciales.php
+
+04-12-2013
+==========
+
+- Agregado nombreEstatus y nombreTipo a getChoferes - catChoferes.php
+- Correción query addChofer y updChofer - catChoferes.php
+- Modificación por error de conexión en generales.php
+- Agregada condición en el query de getCentrosUsuarios para sólo Centros de Distribución 'CD'
+- Modificado nomnbre de variable de VigenciaLicencia a terminación Txt en vez de Hdn - catChoferes.php
+- Se agregó encriptación MD5 para la pantalla de Login - segLogin.php
+- Funcion getUsuarios agregada - segUsuarios.php
+
+05-12-2013
+==========
+
+- Agregado campo de descripción de la marca a getClasificacionMarca - catClasificacionMarca.php
+- Modificacon a query de updClasificacionMarca - catClasificacionMarca.php
+- Funcion addUsuario creada - segUsuarios.php
+- Mensaje getUsuarioSuccessMsg creado - mensajesES.php
+- Archivo sisPanelControl.php creado
+- Funciones cambiarFondoPantalla y cambiarTema creadas - sisPanelControl.php
+
+10-12-2013
+==========
+
+- Agregados filtros para todos los campos en getChoferes - catChoferes.php
+- Cambio de nombre  de variable del distribuidor de Txt a Hdn en detencionUnidades - alUnidades.php
+- Función getCentrosDisponibles creada - segUsuarios.php
+- Función getIPUsuario creada - segUsuarios.php
+
+11-12-2013
+==========
+
+- Cambio de query para agregar nombreEstatus en getUsuarios - segUsuarios.php
+- Agregado alias a filtros en getUsuarios - segUsuarios.php
+- Cambio de nombre  de variable del distribuidor de Txt a Hdn en liberarDetencionUnidades - alUnidades.php
+- Correción query getCentrosDisponibles - segUsuarios.php
+- Función getHorariosUsuario creada - segUsuarios.php
+- Correción query por campo autoincremental en detencionUnidades - alUnidades.php
+- Cambio en el query de getSimbolosUnidades - catSimbolosUnidades.php
+- Modificado método para obtener succcessMessage de detencionUnidades - alUnidades.php
+- Correciones al query de addUsuario y updUsuario - segUsuarios.php
+- Mensaje de updUsuario corregido - segUsuarios.php
+- Múltiples correciones a addUsuario y updUsuario - segUsuarios.php
+- Filtro para avanzada en getNoDetenidas y getDetenidas - alUnidades.php
+
+12-12-2013
+==========
+
+- Correción nombre de función updSimbolosUnidades - catSimbolosUnidades.php
+- Correción nombre de llamada a mensaje getSimbolosUnidadesUpdateMsg - catSimbolosUnidades.php
+
+16-12-2013
+==========
+
+- Todos los filtros agregados a getDestinosEspeciales - alDestinosEspeciales.php
+- Nombres de tablas normalizadas en querys - alDestinosEspeciales.php
+- Todos los filtros agregados a getEstatus - alFlujoMovimientos.php
+- Nombres de tablas normalizadas en querys - alFlujoMovimientos.php
+-  Filtros completos y nombres normalizados - catDistribuidoresCentros.php
+
+17-12-2013
+==========
+
+- Filtros corregidos getGeneralesGroup - catGenerales.php
+- Nombre de variable corregido en query de getEstatus - alFlujoMovimientos.php
+- Correciones varias a addPlaza y updPlaza de condiciones - catPlazas.php
+
+18-12-2013
+==========
+
+- Mensajes para Panel de Control agregados
+- Modificaciones a query de getColonias - catColonias.php
+- Modificaciones a query de getMunicipios - catMunicipios.php
+- Agregado campo banco a query de getCuentasBancarias - catCuentasBancarias.php
+
+20-12-2013
+==========
+- Correción línea faltante en filtro getPlazas - catPlazas.php
+- Correción a query de getRutas - catRutas.php
+
+24-12-2013
+==========
+- get, add, upd de catImpuestos.php creado
+
+26-12-2013
+==========
+- Agregado variable de modulo a Sesion en catRegiones.php
+- get, add, upd de catSeries.php creado
+- descripcionCentro, nombreTipoCuenta agregados a query en getConceptosCentros - catConceptosCentros.php
+
+27-12-2013
+==========
+- Correciones por cambio de tipo de columna calculo caConceptosCentros - catConceptosCentros.php
+- Funcion getCuentas creada - coCuentas.php
+
+17-01-2014
+==========
+- Cambio de PHPs a obtencion de generales.php un arreglo asociativo en vez de un "result set".
+- Es necesario checar el updGenerales (catGenerales.php no sé que demonios hice ahí)
+- Checar si se va a hacer updCuentas (coCuentas.php)
+- checkHorarios en segLogin?
+
+20-01-2014
+==========
+- Funcion bloquearTractorViaje creada (trViajesTractores.php)
+
+27-01-2014
+==========
+- Funcion add y update modificadas y separada funcion addKmPlaza (catPlazas.php)
+- Correccion a successMessage en addSimbolosUnidades (catSimbolosUnidades.php)

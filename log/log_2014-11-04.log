@@ -1,0 +1,44 @@
+20:46:33 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+20:46:33 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+20:46:33 - SELECT * FROM caGenerales WHERE tabla = 'vepagos' AND columna = 'tipoPago' AND estatus = 1;
+20:47:22 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+20:47:22 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+20:47:22 - SELECT * FROM caGenerales WHERE tabla = 'vepagos' AND columna = 'tipoPago' AND estatus = 1;
+20:48:10 - INSERT INTO veVentas (fechaEvento, total, idUsuario, estatus, compania, folio)VALUES('2014-11-04 20:48:10','31.5', 1, 'VA', 'Prue', 3)
+20:48:10 - INSERT INTO vedetalleventa (idVenta, claveProducto, precio, cantidad, fechaEvento, idUsuario)VALUES(108, '7501943476165', '12.00', '1', '2014-11-04 20:48:10', 1)
+20:48:10 - SELECT (activosInventario -1) AS resta, tipoProducto FROM caproducto WHERE claveProducto =7501943476165;
+20:48:10 - UPDATE caproducto SET  activosInventario = '18' WHERE claveProducto = '7501943476165'; 
+20:48:10 - INSERT INTO vedetalleventa (idVenta, claveProducto, precio, cantidad, fechaEvento, idUsuario)VALUES(108, '1234565432', '10.00', '1', '2014-11-04 20:48:10', 1)
+20:48:10 - SELECT (activosInventario -1) AS resta, tipoProducto FROM caproducto WHERE claveProducto =1234565432;
+20:48:10 - UPDATE caproducto SET  activosInventario = '31' WHERE claveProducto = '1234565432'; 
+20:48:10 - INSERT INTO vedetalleventa (idVenta, claveProducto, precio, cantidad, fechaEvento, idUsuario)VALUES(108, '12333421', '9.50', '1', '2014-11-04 20:48:10', 1)
+20:48:10 - SELECT (activosInventario -1) AS resta, tipoProducto FROM caproducto WHERE claveProducto =12333421;
+20:48:10 - UPDATE caproducto SET  activosInventario = '4' WHERE claveProducto = '12333421'; 
+20:48:10 - INSERT INTO vePagos (idVenta, importe, tipoPago, noReferencia) VALUES(10,'11.5','PE',NULL)
+20:48:10 - INSERT INTO vePagos (idVenta, importe, tipoPago, noReferencia) VALUES(NULL,'20','PE',NULL)
+20:48:12 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+20:48:12 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+20:51:32 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+20:51:32 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+20:51:32 - SELECT * FROM caGenerales WHERE tabla = 'vepagos' AND columna = 'tipoPago' AND estatus = 1;
+20:51:52 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+20:51:52 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+20:51:52 - SELECT * FROM caGenerales WHERE tabla = 'vepagos' AND columna = 'tipoPago' AND estatus = 1;
+20:52:35 - INSERT INTO veVentas (fechaEvento, total, idUsuario, estatus, compania, folio)VALUES('2014-11-04 20:52:35','21.5', 1, 'VA', 'Prue', 4)
+20:52:35 - INSERT INTO vedetalleventa (idVenta, claveProducto, precio, cantidad, fechaEvento, idUsuario)VALUES(109, '7501943476165', '12.00', '1', '2014-11-04 20:52:35', 1)
+20:52:35 - SELECT (activosInventario -1) AS resta, tipoProducto FROM caproducto WHERE claveProducto =7501943476165;
+20:52:35 - UPDATE caproducto SET  activosInventario = '17' WHERE claveProducto = '7501943476165'; 
+20:52:35 - INSERT INTO vedetalleventa (idVenta, claveProducto, precio, cantidad, fechaEvento, idUsuario)VALUES(109, '12333421', '9.50', '1', '2014-11-04 20:52:35', 1)
+20:52:35 - SELECT (activosInventario -1) AS resta, tipoProducto FROM caproducto WHERE claveProducto =12333421;
+20:52:35 - UPDATE caproducto SET  activosInventario = '3' WHERE claveProducto = '12333421'; 
+20:52:35 - INSERT INTO vePagos (idVenta, importe, tipoPago, noReferencia) VALUES(109, '11.5','PE',NULL)
+20:52:35 - INSERT INTO vePagos (idVenta, importe, tipoPago, noReferencia) VALUES(109, '10','PE',NULL)
+20:52:37 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+20:52:37 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+20:53:11 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+21:04:49 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+21:04:49 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+21:04:49 - SELECT * FROM caGenerales WHERE tabla = 'vepagos' AND columna = 'tipoPago' AND estatus = 1;
+21:06:31 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-04%') ;
+21:06:31 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+21:06:31 - SELECT * FROM caGenerales WHERE tabla = 'vepagos' AND columna = 'tipoPago' AND estatus = 1;

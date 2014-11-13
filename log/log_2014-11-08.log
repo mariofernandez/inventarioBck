@@ -1,0 +1,3 @@
+15:04:42 - SELECT po.*, cc.descripcion as descProveedor, cg.valor as descTipoProducto FROM caProducto po, caCompanias cc, caGenerales cg WHERE po.claveCompania = cc.claveCompania AND po.tipoProducto = cg.valor  AND  po.activosInventario > 0  ORDER BY po.claveProducto ASC
+15:04:42 - SELECT vv.*, su.nombre as descUsario, cg.nombre as descEstatus FROM veventas vv, segusuariosTbl su, cagenerales cg WHERE vv.idUsuario = su.idUsuario AND vv.estatus = cg.valor AND vv.folio = (SELECT max(vv2.folio) FROM veVentas vv2 WHERE vv2.fechaEvento LIKE '%2014-11-08%') ;
+15:04:42 - SELECT * FROM caGenerales WHERE tabla = 'vepagos' AND columna = 'tipoPago' AND estatus = 1;
