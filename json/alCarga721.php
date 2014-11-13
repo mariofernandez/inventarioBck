@@ -5,7 +5,7 @@
 	include 'alUnidadesLeeArchivo.php';
 
 	error_reporting(E_ALL);
-	
+	asfsdf
     $a = array();
 	$a['successTitle'] = "Manejador de Archivos";
 	
