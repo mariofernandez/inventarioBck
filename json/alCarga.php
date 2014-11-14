@@ -1,7 +1,6 @@
 <?php
 	require("../funciones/generales.php");
 	require("../funciones/utilidades.php");
-weqwe
 	global $dirPath;
 	global $filePath;
 	global $fileName;
