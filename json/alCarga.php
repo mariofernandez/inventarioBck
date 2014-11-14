@@ -5,7 +5,6 @@
 	global $filePath;
 	global $fileName;
 	date_default_timezone_set('America/Mexico_City');
-ksjdfhsdjkhfsdkj
 	$dirPath = "C:/carbook";
 	$fileName= "chr660.txt";
 	$filePath = $dirPath.$fileName;
