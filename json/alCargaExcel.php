@@ -1,6 +1,5 @@
 <?php
     session_start();
-shjgjdfs
 	date_default_timezone_set('America/Mexico_City');
 	include 'alUnidadesLeeArchivo.php';
 
