@@ -3,7 +3,7 @@
 	
 	date_default_timezone_set('America/Mexico_City');
 	include 'alUnidadesLeeArchivo.php';
-	iudsrfyuiewdyiews
+uieryewuirye8uiw
 	error_reporting(E_ALL);
     $a = array();
 	$a['successTitle'] = "Manejador de Archivos";
