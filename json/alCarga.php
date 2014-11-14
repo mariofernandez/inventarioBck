@@ -8,7 +8,7 @@
 	$dirPath = "C:/carbook";
 	$fileName= "chr660.txt";
 	$filePath = $dirPath.$fileName;
-
+werfewrewrewrewrew
 	echo "Inicio: ".date("Y-m-d H:i", strtotime("now"))."\r\n";
 	if(file_exists($filePath)){ 
 	   carga660();
