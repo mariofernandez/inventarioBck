@@ -15,5 +15,4 @@
 	   	echo "El archivo no existe\r\n";
 	   	echo "$dirPath"; 
 	}
-	djfhdsjfhdkjhfkdsjfhkjsd
 ?>
