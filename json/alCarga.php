@@ -1,7 +1,7 @@
 <?php
 	require("../funciones/generales.php");
 	require("../funciones/utilidades.php");
-	global $dirPath;//jsdhj
+	global $dirPath;//jair
 	global $filePath;
 	global $fileName;
 	date_default_timezone_set('America/Mexico_City');
