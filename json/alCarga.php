@@ -1,5 +1,5 @@
 <?php
-//pruebas
+//pru
 	require("../funciones/generales.php");
 	require("../funciones/utilidades.php");
 	global $dirPath;
